@@ -1,0 +1,10 @@
+{
+  "name": "shop-checkout-demo",
+  "version": "1.0.0",
+  "description": "A tiny checkout service used to demo Doneproof, a Jira app that only lets work move to Done when it is proven.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
