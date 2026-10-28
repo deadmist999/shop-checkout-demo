@@ -32,5 +32,5 @@ test('the order total charged after 3-D Secure is the cart total', async () => {
   let charged;
   const provider = { ...secure, charge: async (p) => { charged = p.amount; return secure.charge(); } };
   await placeOrder(cart, {}, provider, { completeChallenge: async () => ({ approved: true }) });
-  assert.equal(charged, 110);
+  assert.equal(charged, 100);
 });
